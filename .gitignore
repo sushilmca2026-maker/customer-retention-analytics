@@ -1,0 +1,23 @@
+# Data: the bundled data/Churn_Modelling.csv is synthetic sample data and IS tracked.
+# If you replace it with real customer data, add a data/.gitignore override or
+# rename the real file so it isn't committed accidentally.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Reports (generated - optional to track; uncomment to exclude)
+# reports/eda_charts/
+# reports/findings.md
